@@ -2,8 +2,8 @@ from bs4 import BeautifulSoup as bs
 import time,requests,random
 
 #先登录下，记下cookie
-raw_cookies = 'bid=_m3FKY-Rn34; ll="108296"; ps=y; dbcl2="151695710:U3rTgS8gRAE"; ck=YJnP; push_noty_num=0; push_doumail_num=0'
-raw_cookies_02 = 'bid=_m3FKY-Rn34; ll="108296"; ps=y; push_noty_num=0; push_doumail_num=0; dbcl2="79379623:ZDvFYcoy0EM"; ck=ouiZ'
+raw_cookies = ''
+raw_cookies_02 = ''
 cookies = {}
 for line in raw_cookies.split(';'):
     key,value = line.split('=',1)

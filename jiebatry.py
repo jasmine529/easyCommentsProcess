@@ -26,5 +26,5 @@ def dif_mode():
 
 if __name__ == '__main__':
     #print (get_topK('clean_data',20))
-    #print (get_a_set('clean_data'))
-    dif_mode()
+    print (get_a_set('clean_data'))
+    #dif_mode()
